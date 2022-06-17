@@ -47,6 +47,22 @@ main {
     color: white;
 }
 
+.card h2{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.card p{
+    text-align: center;
+}
+
+.card pre{
+    margin: auto;
+    user-select: all;
+}
+
+
 footer {
     text-align: center;
 }
