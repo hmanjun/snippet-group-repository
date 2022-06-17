@@ -30,12 +30,12 @@
                 Use these properties to create a Flexbox row.
             </p>
             <pre>
-                element {
-                    display: flex;
-                    flex-direction: row;
-                    /*flex-direction: coloumn;*/
-                    /*flex-wrap: wrap;*/
-                }
+        element {
+            display: flex;
+            flex-direction: row;
+            /*flex-direction: coloumn;*/
+            /*flex-wrap: wrap;*/
+        }
             </pre>
         </section>
 
@@ -57,13 +57,13 @@
                 Use these properties to have invisible links appear when hovering over header.
             </p>
             <pre>
-                section "specific"{
-                    display: none;
-                }
+        section "specific"{
+            display: none;
+        }
 
-                section:hover "specific"{
-                    display: block;
-                }
+        section:hover "specific"{
+            display: block;
+        }
             </pre>
         </section>
 
@@ -73,11 +73,11 @@
                 Make header stick to the top of the screen even when scrolled down.
             </p>
             <pre>
-                header {
-                    position: fixed;
-                    top: 0;
-                    z-index: 2;
-                }
+        header {
+            position: fixed;
+            top: 0;
+            z-index: 2;
+        }
             </pre>
         </section>
 
@@ -87,27 +87,27 @@
                 Add tooltip to specific words.
             </p>
             <pre>
-                span[data-descr] {
-                /*text-decoration: underline;*/
-                /*cursor: grab;*/
-                position: relative;
-                color: #000;
-                    }
+        span[data-descr] {
+        /*text-decoration: underline;*/
+        /*cursor: grab;*/
+        position: relative;
+        color: #000;
+            }
 
-                span[data-descr]:hover::after {
-                    content: attr(data-descr);
-                    position: absolute;
-                    bottom: 20px;
-                    min-width:100px;
-                    border: 1px #aaaaaa solid;
-                    background-color:#FFFFCA;
-                    padding: 6px;
-                    color: #000000;
-                    font-size: 70%;
-                    z-index: 1;
-                    border-radius: 6px;
-                    white-space:nowrap;
-                    }
+        span[data-descr]:hover::after {
+            content: attr(data-descr);
+            position: absolute;
+            bottom: 20px;
+            min-width:100px;
+            border: 1px #aaaaaa solid;
+            background-color:#FFFFCA;
+            padding: 6px;
+            color: #000000;
+            font-size: 70%;
+            z-index: 1;
+            border-radius: 6px;
+            white-space:nowrap;
+            }
             </pre>
         </section>
 
@@ -117,15 +117,14 @@
                 Apply properties depending on screen size
             </p>
             <pre>
-                @media screen and (max-wdith: "Screen Size"px){
-                    section{
-                        properties
-                    }
-                }
+        @media screen and (max-wdith: "Screen Size"px){
+            section{
+                properties
+            }
+        }
             </pre>
         </section>
-        
-
+    
     </main>
 
     <footer>
