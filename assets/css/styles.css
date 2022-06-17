@@ -1,0 +1,28 @@
+/*
+header{
+    background-color: green;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+}
+
+li {
+    position:absolute;
+    text-align: right;
+    display: inline;
+    list-style-type: none;
+}
+
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 2p;
+    padding: 2px;
+}
+
+*/
