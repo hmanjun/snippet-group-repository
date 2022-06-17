@@ -72,11 +72,13 @@
         <section class="card" id="card4">
             <h2>Creating a Fixed Header</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, del
+                Make header stick to the top of the screen even when scrolled down.
             </p>
             <pre>
-                .container {
-                    display: flex;
+                header {
+                    position: fixed;
+                    top: 0;
+                    z-index: 2;
                 }
             </pre>
         </section>
@@ -84,7 +86,7 @@
         <section class="card" id="card5">
             <h2>Tooltip</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, del
+                Add tooltip to specific words.
             </p>
             <pre>
                 span[data-descr] {
@@ -114,11 +116,13 @@
         <section class="card" id="card6">
             <h2>Media Query (Desktop, Tablet, Phone)</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, del
+                Apply properties depending on screen size
             </p>
             <pre>
-                .container {
-                    display: flex;
+                @media screen and (max-wdith: "Screen Size"px){
+                    section{
+                        properties
+                    }
                 }
             </pre>
         </section>
