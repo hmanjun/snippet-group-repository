@@ -1,17 +1,5 @@
-/*
-header{
-    background-color: green;
-    width: 100%;
-    top: 0px;
-    z-index: 1;
-    text-align: center;
-}
-
-li {
-    position:absolute;
-    text-align: right;
-    display: inline;
-    list-style-type: none;
+* {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body{
@@ -20,9 +8,29 @@ body{
     padding: 0px;
 }
 
+header{
+    background-color: rgb(72, 142, 72);
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+    position: fixed;
+}
+
+nav {
+    text-align: center;
+    color: white;
+    position: absolute;
+    display: inline;
+    bottom: 0px;
+}
+
 main {
-    margin: 2p;
+    margin: 4p;
     padding: 2px;
 }
 
-*/
+.card {
+    display: flex;
+    border: black;
+}
