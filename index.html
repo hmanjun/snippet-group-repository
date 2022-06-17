@@ -87,9 +87,27 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, del
             </p>
             <pre>
-                .container {
-                    display: flex;
-                }
+                span[data-descr] {
+                /*text-decoration: underline;*/
+                /*cursor: grab;*/
+                position: relative;
+                color: #000;
+                    }
+
+                span[data-descr]:hover::after {
+                    content: attr(data-descr);
+                    position: absolute;
+                    bottom: 20px;
+                    min-width:100px;
+                    border: 1px #aaaaaa solid;
+                    background-color:#FFFFCA;
+                    padding: 6px;
+                    color: #000000;
+                    font-size: 70%;
+                    z-index: 1;
+                    border-radius: 6px;
+                    white-space:nowrap;
+                    }
             </pre>
         </section>
 
