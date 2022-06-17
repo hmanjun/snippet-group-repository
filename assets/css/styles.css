@@ -1,5 +1,6 @@
-root {
-    --textcolor: rgb(28, 225, 28)
+:root {
+    --textcolor: rgb(28, 225, 28);
+    --backgroundcolor: rgb(35, 32, 32)
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +13,7 @@ body{
 }
 
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: var(--backgroundcolor);
     color: var(--textcolor);
     width: 100%;
     top: 0px;
@@ -22,12 +23,17 @@ header{
 }
 
 nav {
-    text-align: right;
+    text-align: center;
     color: var(--textcolor);
-    position: absolute;
+    position: center;
     bottom: 0px;
     text-decoration: none;
 }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
 
 main {
     margin: 4p;
@@ -39,6 +45,7 @@ main {
 
 .card {
     border: black;
+    background-color: rgb(35, 32, 32);
     overflow-y: auto;
     overflow-x: hidden;
     display: inline-block;
@@ -56,14 +63,14 @@ main {
     padding: 20px;
     text-align: center;
     color: rgb(28, 225, 28);
-    background-color: black;
+    background-color: var(--backgroundcolor);
     border-radius: 10px 10px 0px 0px;
 }
 
 .card p{
     text-align: center;
     color: var(--textcolor);
-    background-color: black;
+    background-color: var(--backgroundcolor);
 }
 
 .card pre{
@@ -71,7 +78,6 @@ main {
     user-select: all;
     color: white
 }
-
 
 footer {
     text-align: center;
