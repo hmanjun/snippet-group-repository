@@ -1,3 +1,6 @@
+root {
+    --textcolor: rgb(28, 225, 28)
+}
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,7 +13,7 @@ body{
 
 header{
     background-color: rgb(0, 0, 0);
-    color: rgb(28, 225, 28);
+    color: var(--textcolor);
     width: 100%;
     top: 0px;
     z-index: 1;
@@ -20,7 +23,7 @@ header{
 
 nav {
     text-align: right;
-    color: rgb(28, 225, 28);
+    color: var(--textcolor);
     position: absolute;
     bottom: 0px;
     text-decoration: none;
@@ -52,16 +55,21 @@ main {
 .card h2{
     padding: 20px;
     text-align: center;
-    
+    color: rgb(28, 225, 28);
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .card p{
     text-align: center;
+    color: var(--textcolor);
+    background-color: black;
 }
 
 .card pre{
     margin: auto;
     user-select: all;
+    color: white
 }
 
 
