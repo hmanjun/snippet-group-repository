@@ -59,8 +59,12 @@
                 Use these properties to have invisible links appear when hovering over header.
             </p>
             <pre>
-                .container {
-                    display: flex;
+                section "specific"{
+                    display: none;
+                }
+
+                section:hover "specific"{
+                    display: block;
                 }
             </pre>
         </section>
