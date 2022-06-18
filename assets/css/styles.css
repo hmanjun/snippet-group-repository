@@ -77,6 +77,10 @@ main {
     color: rgb(28, 225, 28);
     background-color: var(--backgroundcolor);
     border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .card p{
